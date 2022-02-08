@@ -11,7 +11,7 @@ namespace Task1
 
             string A = Console.ReadLine();
 
-            if (A.Contains("a"))
+            if (A.Contains("a")||A.Contains("A"))
               Console.WriteLine("a herfi var");
             else
               Console.WriteLine("a herfi yoxdur");
